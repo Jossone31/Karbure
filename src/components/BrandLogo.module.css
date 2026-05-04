@@ -1,0 +1,113 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.withImage {
+  background: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.image {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+  display: block;
+}
+
+.sm {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.md {
+  width: 44px;
+  height: 44px;
+  font-size: 13px;
+}
+
+.lg {
+  width: 58px;
+  height: 58px;
+  font-size: 16px;
+}
+
+.total {
+  background: linear-gradient(135deg, #e30613 0%, #f9b000 34%, #00a3e0 68%, #0050a4 100%);
+}
+
+.esso {
+  background: #f8f8f8;
+  color: #d71920;
+  border-color: #1b4f9c;
+}
+
+.shell {
+  background: linear-gradient(135deg, #ffd100, #ed1c24);
+  color: #4a1f00;
+}
+
+.bp {
+  background: linear-gradient(135deg, #009639, #b5d334);
+  color: #073b18;
+}
+
+.avia {
+  background: #e30613;
+}
+
+.eni {
+  background: #ffd100;
+  color: #111;
+}
+
+.leclerc {
+  background: #005baa;
+}
+
+.intermarche {
+  background: #e30613;
+}
+
+.carrefour {
+  background: linear-gradient(135deg, #0055a4 0%, #0055a4 50%, #ef4135 50%, #ef4135 100%);
+}
+
+.auchan {
+  background: #e30613;
+}
+
+.u {
+  background: #00a651;
+}
+
+.casino {
+  background: #00843d;
+}
+
+.cora {
+  background: #d71920;
+}
+
+.dyneff {
+  background: #0b4ea2;
+}
+
+.netto {
+  background: #111;
+  color: #f6d100;
+}
+
+.generic {
+  background: var(--bg-tertiary);
+}
