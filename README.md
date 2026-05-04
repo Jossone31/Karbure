@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README.md
 
 # 🚗 Karbure - Comparateur de Prix Carburant
@@ -77,3 +78,7 @@ Les contributions sont les bienvenues! Veuillez soumettre une pull request.
 ## 📧 Support
 
 Pour toute question ou problème, veuillez ouvrir une issue sur GitHub.
+=======
+# Karbure
+Comparateur de prix de carburant en temps réel
+>>>>>>> 50ce0e6d48db81914478f913ea4885e49e0abeaa
