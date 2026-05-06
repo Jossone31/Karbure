@@ -17,6 +17,11 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+.customMark {
+  background: #fff;
+  border-color: rgba(255, 255, 255, 0.38);
+}
+
 .image {
   width: 72%;
   height: 72%;
@@ -63,7 +68,8 @@
 }
 
 .avia {
-  background: #e30613;
+  background: #fff;
+  color: #e30613;
 }
 
 .eni {
@@ -76,7 +82,8 @@
 }
 
 .intermarche {
-  background: #e30613;
+  background: #fff;
+  color: #e30613;
 }
 
 .carrefour {
@@ -84,7 +91,8 @@
 }
 
 .auchan {
-  background: #e30613;
+  background: #fff;
+  color: #e30613;
 }
 
 .u {
@@ -110,4 +118,111 @@
 
 .generic {
   background: var(--bg-tertiary);
+}
+
+.aviaMark,
+.auchanMark,
+.intermarcheMark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aviaMark {
+  background: #e30613;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.66em;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
+.auchanMark {
+  flex-direction: column;
+  gap: 1px;
+  color: #e30613;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.auchanBird {
+  position: relative;
+  width: 56%;
+  height: 30%;
+  display: block;
+}
+
+.auchanBird::before,
+.auchanBird::after {
+  content: '';
+  position: absolute;
+  top: 28%;
+  width: 56%;
+  height: 48%;
+  background: #e30613;
+  border-radius: 100% 100% 20% 20%;
+}
+
+.auchanBird::before {
+  left: 0;
+  transform: rotate(-24deg);
+}
+
+.auchanBird::after {
+  right: 0;
+  transform: rotate(24deg);
+}
+
+.auchanText {
+  font-size: 0.43em;
+  font-weight: 900;
+}
+
+.intermarcheMark {
+  flex-direction: column;
+  gap: 1px;
+  color: #e30613;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.intermarcheIcon {
+  width: 46%;
+  height: 42%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e30613;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.78em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.intermarcheText {
+  font-size: 0.42em;
+  font-weight: 900;
+}
+
+.sm .aviaMark {
+  font-size: 8px;
+}
+
+.sm .auchanText,
+.sm .intermarcheText {
+  display: none;
+}
+
+.sm .auchanBird {
+  width: 62%;
+  height: 46%;
+}
+
+.sm .intermarcheIcon {
+  width: 54%;
+  height: 54%;
+  font-size: 12px;
 }
